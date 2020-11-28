@@ -16,7 +16,7 @@ public class Hometask03 {
                 System.out.println("");
             }
         } else {
-            System.out.println("It's not a number. Restart programm and try again");
+            System.out.println("It's not a number. Restart program and try again");
         }
         scanner.close();
     }
