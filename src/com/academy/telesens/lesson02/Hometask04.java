@@ -14,6 +14,7 @@ public class Hometask04 {
         if (inputNumber < 10 || inputNumber > 99) {
             System.out.println("Entered number is not natural or two-digit. Restart program and try again");
         } else {
+            System.out.println("Entered number is " + inputNumber);
             System.out.println("The sum of entered digits = " + sumOfDigits);
         }
     }
