@@ -7,14 +7,13 @@ public class Hometask04 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter two-digit natural number");
         int inputNumber = scanner.nextInt();
-        int firstDigit, secondDigit, sumOfDigits;
+        int firstDigit = inputNumber / 10;
+        int secondDigit = inputNumber % 10;
+        int sumOfDigits = firstDigit + secondDigit;
 
         if (inputNumber < 10 || inputNumber > 99) {
             System.out.println("Entered number is not natural or two-digit. Restart program and try again");
         } else {
-            firstDigit = inputNumber / 10;
-            secondDigit = inputNumber % 10;
-            sumOfDigits = firstDigit + secondDigit;
             System.out.println("The sum of entered digits = " + sumOfDigits);
         }
     }
