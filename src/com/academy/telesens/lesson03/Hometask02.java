@@ -24,7 +24,7 @@ public class Hometask02 {
 
         int i = 0;
         while (i < array.length) {
-            array[i] = random.nextInt(100 + 100) - 100;
+            array[i] = random.nextInt(100 + 100) - 100; //random numbers in range from -100 to +100
             i++;
         }
         System.out.println(Arrays.toString(array) + " - Fill array using while");
