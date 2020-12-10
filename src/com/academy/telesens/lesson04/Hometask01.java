@@ -1,8 +1,11 @@
 package com.academy.telesens.lesson04;
 
 import java.util.Scanner;
-
-
+//
+//1) Напишите программу, которая:
+//        - считывает строку
+//        - выводит исходную строку
+//        - выводит количество и список слов, которые начинаются на букву 'd'
 public class Hometask01 {
     public static void main(String[] args) {
         System.out.println("Enter string");
